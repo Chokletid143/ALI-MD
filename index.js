@@ -69,7 +69,7 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('STARK-ALI~2RIDVabJ#P-iyF1LWhfWV_FYf6K_t6n7sx0jFyehkO620Mukpbiw')
+if(!config.SESSION_ID) return console.log('STARK-ALI~rBAXWDAA#pu2_BBZ60-Jg7gxkKmKKeTu56WqBXetGK9BTp4SJJ2Y')
 const sessdata = config.SESSION_ID.replace("STARK-ALI~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
@@ -121,7 +121,7 @@ const port = process.env.PORT || 9090;
 *╭───━━━━───━━━━──┉┈⚆*
 *│• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •*
 *│• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •*
-*│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽*
+*│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : अकेला ✌🏻🖤🙇🏿*
 *│• ⏰𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 : ${online}*
 *│• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}*
 *│• 🪾𝐌𝐎𝐃𝐄 : ${mode}*
