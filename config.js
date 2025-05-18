@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~2RIDVabJ#P-iyF1LWhfWV_FYf6K_t6n7sx0jFyehkO620Mukpbiw",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~rBAXWDAA#pu2_BBZ60-Jg7gxkKmKKeTu56WqBXetGK9BTp4SJJ2Y",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*❤️✌🏿👻*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -29,7 +29,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "917644811277",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI",
+OWNER_NAME: process.env.OWNER_NAME || "अकेला ✌🏻🖤🙇🏿",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
